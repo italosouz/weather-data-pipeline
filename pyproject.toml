@@ -1,0 +1,11 @@
+[project]
+name = "weather-data-pipeline"
+version = "0.1.0"
+description = "Pipeline de dados meteorológicos com ingestão, transformação e análise."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pyarrow>=25.0.1",
+    "requests>=2.34.2",
+    "tzdata>=2026.5",
+]
